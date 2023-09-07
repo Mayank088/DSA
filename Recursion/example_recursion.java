@@ -2,7 +2,7 @@ package Recursion;
 
 public class example_recursion {
     static void printFun(int n){
-        if (n<0){
+        if (n==0){
             return;
         }
         else {
