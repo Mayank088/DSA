@@ -25,7 +25,10 @@ public class range_sum_queries {
         {
             return pre[r];
         }
+        else
+        {
         return pre[r] - pre[l - 1];
+        }
     }
 
     public static void main(String[] args) {
