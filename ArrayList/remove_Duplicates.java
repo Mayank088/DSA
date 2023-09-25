@@ -60,7 +60,26 @@ public class remove_Duplicates
     public static void main(String[] args)
     {
         int arr[] = {10 , 20, 20 , 30 , 30 , 30};
-        int ans = rmvDupt(arr);
-        System.out.println(ans);   // ans = 3 => {10,20,30}
+        rmvDupt2(arr);   //we are done here
+
+
+        //extra work.. only above is enough
+        int n = arr.length;
+        for(int i = 0; i < n; i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+
+        System.out.println();
+
+        n = rmvDupt(arr);            //calling function
+
+        System.out.println("After Removal");
+
+        for(int i = 0; i < n; i++)
+        {
+            System.out.print(arr[i]+" ");
+        }
+        // ans = 3 => {10,20,30}
     }
 }
