@@ -35,7 +35,7 @@ public class index_of_last_occurrence {
         }
         else
         {
-            if (mid==n-1 || arr[mid+1] != arr[mid])
+            if (mid==n-1 || arr[mid] != arr[mid+1])
             {
                 return mid;
             }
@@ -68,7 +68,7 @@ public class index_of_last_occurrence {
             }
             else
             {
-                if (mid==n-1 || arr[mid+1] != arr[mid])
+                if (mid==n-1 || arr[mid] != arr[mid+1])
                 {
                     return mid;
                 }
