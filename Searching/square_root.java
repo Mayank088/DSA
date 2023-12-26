@@ -20,7 +20,7 @@ public class square_root {
 
     public static int squareRoot3(int x)     //time O(logn)
     {
-        int start = 0;
+        int start = 1;
         int end = x;
         int ans = -1;
 
