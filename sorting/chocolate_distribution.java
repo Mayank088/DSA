@@ -6,6 +6,11 @@ public class chocolate_distribution {
 
     public static int distribution(int arr[] , int m)            //time : O(n * logn)
     {
+        if (arr.length<m)
+        {
+            return -1;
+        }
+        
         Arrays.sort(arr);
         int res = Integer.MAX_VALUE;
 
