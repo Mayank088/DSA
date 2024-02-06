@@ -1,5 +1,5 @@
 package Matrix;
-
+//only 2*2 mate j
 public class subtraction_of_matrix
 {
     public static void sub(int a[][] , int b[][])
@@ -24,6 +24,7 @@ public class subtraction_of_matrix
             System.out.println(" ");
         }
     }
+
     public static void main(String[] args)
     {
         int a[][] = {{5, 6},

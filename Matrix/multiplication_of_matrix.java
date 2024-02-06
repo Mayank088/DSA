@@ -1,6 +1,7 @@
 package Matrix;
 //2*2 matrix
-public class multiplication_of_matrix {
+public class multiplication_of_matrix
+{
     public static void mul(int a[][] , int b[][])
     {
         int m=2 , n=2 , p=2;
@@ -18,6 +19,7 @@ public class multiplication_of_matrix {
                 }
             }
         }
+
         for (int i=0 ; i<ans.length ; i++)
         {
             for (int j= 0 ; j<ans[i].length ; j++)
